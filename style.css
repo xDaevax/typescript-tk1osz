@@ -1,0 +1,12 @@
+@page {
+  @bottom-left {
+    content: 'Page ' counter(page) ' of ' counter(pages);
+  }
+}
+body {
+  height: 100vh;
+  counter-reset: page 1;
+}
+.content-item {
+  padding: 1rem 0;
+}
